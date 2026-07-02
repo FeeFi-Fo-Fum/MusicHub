@@ -3,7 +3,7 @@ import { useStore } from '../store'
 import { useArrangementStore } from '../store/arrangementStore'
 import { audioEngine } from '../audio/engine'
 import { buildSequences, disposeAll } from '../audio/scheduler'
-import { disposeArrangement } from '../audio/arrangementScheduler'
+import { disposeArrangement, buildArrangement } from '../audio/arrangementScheduler'
 import * as Tone from 'tone'
 
 export function useKeyboardShortcuts(page: string) {
@@ -28,7 +28,6 @@ export function useKeyboardShortcuts(page: string) {
             arr.setIsPlaying(true)
           } else {
             // Fresh start arrange
-            const { buildArrangement } = await import('../audio/arrangementScheduler')
             buildArrangement(arr.clips, useStore.getState().bpm, arr.tracks, { enabled: arr.loopEnabled, start: arr.loopStart, end: arr.loopEnd })
             Tone.getTransport().start()
             arr.setIsPlaying(true)
