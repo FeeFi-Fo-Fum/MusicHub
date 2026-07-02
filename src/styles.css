@@ -750,7 +750,7 @@ body { background: var(--bg); color: var(--text); height: 100vh; overflow: hidde
 
 .intro-card {
   background: #fff; color: #111;
-  border-radius: 20px; width: 520px; max-width: 92vw;
+  border-radius: 20px; width: 520px; max-width: 92vw; max-height: 90vh;
   box-shadow: 0 24px 80px rgba(0,0,0,0.35);
   display: flex; flex-direction: column; overflow: hidden;
   animation: introSlideUp 0.4s cubic-bezier(0.22,1,0.36,1);
@@ -765,6 +765,13 @@ body { background: var(--bg); color: var(--text); height: 100vh; overflow: hidde
   transition: color 0.15s, background 0.15s;
 }
 .intro-skip:hover { color: #333; background: #f0f0f0; }
+.intro-no-show {
+  position: absolute; top: 14px; left: 16px;
+  background: none; border: none; color: #999; font-size: 12px;
+  cursor: pointer; padding: 4px 8px; border-radius: 6px;
+  transition: color 0.15s, background 0.15s;
+}
+.intro-no-show:hover { color: #e74c3c; background: #fff0f0; }
 
 .intro-anim-container {
   height: 200px; background: #f7f7fb;

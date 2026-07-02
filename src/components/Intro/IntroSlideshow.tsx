@@ -232,6 +232,7 @@ export default function IntroSlideshow() {
     <div className={`intro-overlay ${exiting ? 'exiting' : ''}`}>
       <div className={`intro-card ${exiting ? 'exiting' : ''}`}>
         <button className="intro-skip" onClick={dismiss}>Skip Intro</button>
+        <button className="intro-no-show" onClick={() => { localStorage.setItem(STORAGE_KEY, '1'); dismiss() }}>Don't show again</button>
 
         <div className={`intro-anim-container ${current.id === 'controls' ? 'tall' : ''}`}>
           {current.animation}
