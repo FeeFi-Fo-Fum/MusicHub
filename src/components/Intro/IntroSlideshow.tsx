@@ -123,7 +123,6 @@ function MixerAnim() {
         <div key={i} className="intro-mixer-strip">
           <div className="intro-mixer-label">{name}</div>
           <div className="intro-mixer-bar" style={{ height: [55, 70, 45, 60, 30][i], animationDelay: `${i * 0.1}s` }} />
-          <div className="intro-mixer-vol">V {[80,90,60,75,40][i]}%</div>
         </div>
       ))}
     </div>
