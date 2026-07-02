@@ -1,0 +1,137 @@
+{
+  "bpm": 128,
+  "notes": [
+    {
+      "id": "fc93f4ae",
+      "pitch": "C5",
+      "startStep": 0,
+      "duration": 1
+    },
+    {
+      "id": "05822ac7",
+      "pitch": "G4",
+      "startStep": 1,
+      "duration": 1
+    },
+    {
+      "id": "f8b0372f",
+      "pitch": "E4",
+      "startStep": 2,
+      "duration": 1
+    },
+    {
+      "id": "d463f273",
+      "pitch": "C4",
+      "startStep": 3,
+      "duration": 1
+    },
+    {
+      "id": "33671dfc",
+      "pitch": "D5",
+      "startStep": 4,
+      "duration": 2
+    },
+    {
+      "id": "9c04415b",
+      "pitch": "B4",
+      "startStep": 6,
+      "duration": 2
+    },
+    {
+      "id": "b39313fe",
+      "pitch": "E5",
+      "startStep": 8,
+      "duration": 1
+    },
+    {
+      "id": "af63ca67",
+      "pitch": "B4",
+      "startStep": 9,
+      "duration": 1
+    },
+    {
+      "id": "c78db707",
+      "pitch": "G4",
+      "startStep": 10,
+      "duration": 1
+    },
+    {
+      "id": "da704268",
+      "pitch": "E4",
+      "startStep": 11,
+      "duration": 1
+    },
+    {
+      "id": "58ef6723",
+      "pitch": "F5",
+      "startStep": 12,
+      "duration": 2
+    },
+    {
+      "id": "84a3e70f",
+      "pitch": "C5",
+      "startStep": 14,
+      "duration": 2
+    },
+    {
+      "id": "4d777449",
+      "pitch": "G5",
+      "startStep": 16,
+      "duration": 2
+    },
+    {
+      "id": "5f7f7df7",
+      "pitch": "F5",
+      "startStep": 18,
+      "duration": 1
+    },
+    {
+      "id": "9c945590",
+      "pitch": "E5",
+      "startStep": 19,
+      "duration": 1
+    },
+    {
+      "id": "2f43eee5",
+      "pitch": "D5",
+      "startStep": 20,
+      "duration": 2
+    },
+    {
+      "id": "5c9028f1",
+      "pitch": "C5",
+      "startStep": 22,
+      "duration": 2
+    },
+    {
+      "id": "fb71569a",
+      "pitch": "B4",
+      "startStep": 24,
+      "duration": 1
+    },
+    {
+      "id": "84ef5fee",
+      "pitch": "C5",
+      "startStep": 25,
+      "duration": 1
+    },
+    {
+      "id": "3d088fc5",
+      "pitch": "D5",
+      "startStep": 26,
+      "duration": 1
+    },
+    {
+      "id": "197d7a32",
+      "pitch": "E5",
+      "startStep": 27,
+      "duration": 1
+    },
+    {
+      "id": "7252a748",
+      "pitch": "G5",
+      "startStep": 28,
+      "duration": 4
+    }
+  ]
+}

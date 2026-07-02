@@ -1,0 +1,59 @@
+{
+  "bpm": 90,
+  "notes": [
+    {
+      "id": "c9dea30f",
+      "pitch": "G4",
+      "startStep": 0,
+      "duration": 2
+    },
+    {
+      "id": "a4df34ed",
+      "pitch": "F4",
+      "startStep": 2,
+      "duration": 1
+    },
+    {
+      "id": "1a7eb456",
+      "pitch": "Eb4",
+      "startStep": 3,
+      "duration": 1
+    },
+    {
+      "id": "12db4135",
+      "pitch": "D4",
+      "startStep": 4,
+      "duration": 3
+    },
+    {
+      "id": "9f7c5aa9",
+      "pitch": "Eb4",
+      "startStep": 7,
+      "duration": 1
+    },
+    {
+      "id": "34f527ea",
+      "pitch": "C4",
+      "startStep": 8,
+      "duration": 2
+    },
+    {
+      "id": "9fca3888",
+      "pitch": "D4",
+      "startStep": 10,
+      "duration": 1
+    },
+    {
+      "id": "87601b07",
+      "pitch": "Eb4",
+      "startStep": 11,
+      "duration": 1
+    },
+    {
+      "id": "633717e6",
+      "pitch": "F4",
+      "startStep": 12,
+      "duration": 4
+    }
+  ]
+}
