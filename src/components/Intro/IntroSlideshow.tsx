@@ -122,7 +122,6 @@ function MixerAnim() {
       {['Drums','Piano','Bass','Guitar','FX'].map((name, i) => (
         <div key={i} className="intro-mixer-strip" style={{ flex: 1, minWidth: 0 }}>
           <div className="intro-mixer-bar" style={{ height: [55, 70, 45, 60, 30][i], animationDelay: `${i * 0.1}s` }} />
-          <div className="intro-mixer-label" style={{ textAlign: 'center', marginTop: 4 }}>{name}</div>
         </div>
       ))}
     </div>
