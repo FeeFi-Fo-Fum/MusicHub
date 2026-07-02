@@ -118,10 +118,14 @@ function ArrangeAnim() {
 
 function MixerAnim() {
   return (
-    <div className="intro-anim" style={{ display: 'flex', gap: 10, alignItems: 'flex-end', justifyContent: 'center', padding: '10px 20px', width: '100%', boxSizing: 'border-box', overflow: 'hidden' }}>
-      {['Drums','Piano','Bass','Guitar','FX'].map((name, i) => (
-        <div key={i} className="intro-mixer-strip" style={{ flex: 1, minWidth: 0 }}>
-          <div className="intro-mixer-bar" style={{ height: [55, 70, 45, 60, 30][i], animationDelay: `${i * 0.1}s` }} />
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 10, padding: '20px 30px', width: '100%', boxSizing: 'border-box' }}>
+      {[['🥁 Drums', 80], ['🎹 Piano', 90], ['🎸 Guitar', 65], ['🔊 Bass', 75], ['✨ FX', 40]].map(([name, vol], i) => (
+        <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+          <span style={{ fontSize: 12, width: 80, flexShrink: 0, color: '#555' }}>{name as string}</span>
+          <div style={{ flex: 1, height: 8, background: '#e0e0e0', borderRadius: 4, overflow: 'hidden' }}>
+            <div style={{ width: `${vol}%`, height: '100%', background: '#7c5cfc', borderRadius: 4 }} />
+          </div>
+          <span style={{ fontSize: 11, color: '#888', width: 32, textAlign: 'right' }}>{vol}%</span>
         </div>
       ))}
     </div>
