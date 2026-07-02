@@ -118,11 +118,11 @@ function ArrangeAnim() {
 
 function MixerAnim() {
   return (
-    <div className="intro-anim" style={{ display: 'flex', gap: 8, alignItems: 'flex-end', justifyContent: 'center', paddingTop: 10 }}>
+    <div className="intro-anim" style={{ display: 'flex', gap: 10, alignItems: 'flex-end', justifyContent: 'center', padding: '10px 20px', width: '100%', boxSizing: 'border-box', overflow: 'hidden' }}>
       {['Drums','Piano','Bass','Guitar','FX'].map((name, i) => (
-        <div key={i} className="intro-mixer-strip">
-          <div className="intro-mixer-label">{name}</div>
+        <div key={i} className="intro-mixer-strip" style={{ flex: 1, minWidth: 0 }}>
           <div className="intro-mixer-bar" style={{ height: [55, 70, 45, 60, 30][i], animationDelay: `${i * 0.1}s` }} />
+          <div className="intro-mixer-label" style={{ textAlign: 'center', marginTop: 4 }}>{name}</div>
         </div>
       ))}
     </div>
